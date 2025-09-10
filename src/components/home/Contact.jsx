@@ -54,7 +54,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-800 mb-1">Location</h4>
-                    <p className="text-gray-600">123 Dental Street, Mumbai, India</p>
+                    <p className="text-gray-600">Shop No. 9, Beside Jain Temple, Pestonji Street</p>
+                    <p className="text-gray-600">Colaba, Mumbai, Maharashtra 400005</p>
                   </div>
                 </div>
                 
@@ -66,7 +67,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-800 mb-1">Phone</h4>
-                    <p className="text-gray-600">+91 123 456 7890</p>
+                    <p className="text-gray-600">+91 8208510630</p>
                   </div>
                 </div>
                 
@@ -90,9 +91,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-800 mb-1">Hours</h4>
-                    <p className="text-gray-600">Monday - Friday: 9am - 7pm</p>
-                    <p className="text-gray-600">Saturday: 9am - 5pm</p>
-                    <p className="text-gray-600">Sunday: Closed</p>
+                    <p className="text-gray-600">10:00 AM to 10:00 PM (Daily)</p>
                   </div>
                 </div>
               </div>

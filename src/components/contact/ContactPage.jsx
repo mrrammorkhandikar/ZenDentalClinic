@@ -62,9 +62,9 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold text-gray-800 mb-1">Our Location</h3>
-                    <p className="text-gray-600 mb-1">123 Dental Street</p>
-                    <p className="text-gray-600 mb-1">Andheri West</p>
-                    <p className="text-gray-600">Mumbai, Maharashtra 400053</p>
+                    <p className="text-gray-600 mb-1">Shop No. 9, Beside Jain Temple</p>
+                    <p className="text-gray-600 mb-1">Pestonji Street, Near Nariman House, Apollo Bandar</p>
+                    <p className="text-gray-600">Colaba, Mumbai, Maharashtra 400005</p>
                   </div>
                 </div>
                 
@@ -76,8 +76,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold text-gray-800 mb-1">Phone</h3>
-                    <p className="text-gray-600 mb-1">+91 123 456 7890</p>
-                    <p className="text-gray-600">+91 987 654 3210</p>
+                    <p className="text-gray-600 mb-1">+91 8208510630</p>
                   </div>
                 </div>
                 
@@ -102,9 +101,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold text-gray-800 mb-1">Office Hours</h3>
-                    <p className="text-gray-600 mb-1">Monday - Friday: 9am - 7pm</p>
-                    <p className="text-gray-600 mb-1">Saturday: 9am - 5pm</p>
-                    <p className="text-gray-600">Sunday: Closed</p>
+                    <p className="text-gray-600">10:00 AM to 10:00 PM (Daily)</p>
                   </div>
                 </div>
               </div>
@@ -131,7 +128,7 @@ const ContactPage = () => {
               </div>
             </div>
             
-            <div className="lg:w-1/2 px-6">
+            <div className="lg:w-1/2 px-6" id="contact-form">
               <div className="bg-white rounded-xl shadow-lg p-8">
                 <h2 className="text-2xl font-bold text-gray-800 mb-6">Send Us a Message</h2>
                 
@@ -225,10 +222,31 @@ const ContactPage = () => {
       {/* Map Section */}
       <section className="py-12">
         <div className="container mx-auto px-6">
-          <div className="bg-gray-200 rounded-xl overflow-hidden h-96">
-            {/* In a real application, you would embed a Google Map here */}
-            <div className="w-full h-full flex items-center justify-center bg-gray-300">
-              <p className="text-gray-600 text-lg font-medium">Google Map would be embedded here</p>
+          <div className="bg-gray-200 rounded-xl overflow-hidden h-96 relative">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3774.33209544996!2d72.82781849999999!3d18.9166891!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1e0c7bad361%3A0xa5b8c86dcc906328!2sZen%20Smile%20Dental%20Clinic%20and%20Implant%20Centre!5e0!3m2!1sen!2sin!4v1757493378706!5m2!1sen!2sin" 
+              width="100%" 
+              height="100%" 
+              style={{ border: 0 }} 
+              allowFullScreen="" 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Zen Smile Dental Clinic Location"
+              className="w-full h-full"
+            ></iframe>
+            <div className="absolute bottom-4 right-4 z-10">
+              <a 
+                href="https://maps.app.goo.gl/aLod9bxW4PebUEaa7" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-white text-blue-600 px-4 py-2 rounded-lg shadow-md hover:bg-blue-50 transition-colors duration-300 flex items-center font-medium"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                View on Google Maps
+              </a>
             </div>
           </div>
         </div>
