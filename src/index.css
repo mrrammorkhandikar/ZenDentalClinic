@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f7f9fc;
+  scroll-behavior: smooth;
+}
+
+.parallax-bg {
+  background-image: url('/Images/BgHome.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 80vh;
+}
+
+.slide-up-initial {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.slide-up-initial.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.scale-in {
+  transform: scale(0.9);
+  opacity: 0;
+  transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+.scale-in.is-visible {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+}

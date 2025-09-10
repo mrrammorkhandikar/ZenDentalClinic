@@ -1,0 +1,27 @@
+/* Custom styles that can't be handled by Tailwind will go here */
+
+.modal {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  z-index: 100;
+}
+
+.modal-content {
+  animation: fadeInScale 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+@keyframes fadeInScale {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.testimonial-carousel {
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.testimonial-item {
+  scroll-snap-align: center;
+  flex: 0 0 100%;
+}
