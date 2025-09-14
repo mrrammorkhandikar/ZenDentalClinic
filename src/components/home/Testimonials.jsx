@@ -6,7 +6,7 @@ const testimonials = [
     name: 'Priya Sharma',
     role: 'Marketing Executive',
     image: 'https://randomuser.me/api/portraits/women/1.jpg',
-    quote: 'I was always anxious about dental visits until I found Zen Smile. Dr. Patel and his team made me feel so comfortable. My teeth whitening results are amazing!'
+    quote: 'I was always anxious about dental visits until I found Zen Smile. Dr. Zeeshan Ladhani and his team made me feel so comfortable. My teeth whitening results are amazing!'
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const testimonials = [
     name: 'Vikram Singh',
     role: 'Business Owner',
     image: 'https://randomuser.me/api/portraits/men/4.jpg',
-    quote: 'I had extensive cosmetic work done at Zen Smile, and the results exceeded my expectations. Dr. Patel is truly an artist when it comes to creating beautiful smiles.'
+    quote: 'I had extensive cosmetic work done at Zen Smile, and the results exceeded my expectations. Dr. Zeeshan Ladhani is truly an artist when it comes to creating beautiful smiles.'
   },
 ];
 

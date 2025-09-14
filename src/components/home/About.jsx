@@ -20,7 +20,7 @@ const About = () => {
             </div>
           </div>
           <div className="lg:w-1/2">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">About Dr. Amit Patel</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">About Dr. Zeeshan Ladhani</h2>
             <p className="text-lg text-gray-600 mb-6">
               At Zen Smile, I believe that a healthy smile is the foundation of overall well-being. My state-of-the-art dental clinic in Mumbai combines advanced technology with compassionate care to provide you with the best dental experience possible.
             </p>
